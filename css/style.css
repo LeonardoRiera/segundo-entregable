@@ -1,0 +1,1250 @@
+
+
+
+
+
+/* fuente general nav */
+
+.fontnav {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+
+
+/* header */
+
+header {
+    background-image: url(../img/cafeUno.jpg);
+    background-size: cover;
+    background-position: center top 15%;
+    height: 100vh;
+    width: 100vmax;
+}
+
+.header-h1{
+    
+ font-family: "Bebas Neue", sans-serif;
+ font-size: 30vmin;
+
+         
+}
+
+
+.ancore {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+/* header variedades */
+
+.header-var {
+    background-image: url(../img/cafeUno.jpg);
+    background-size: cover;
+    background-position: center top 15%;
+    height: 100vh;
+    width: 100vmax;
+}
+
+.header-h1-var {
+    
+ font-family: "Bebas Neue", sans-serif;
+ font-size: 28vmin;
+ margin-top: 12rem;
+
+         
+}
+
+
+.ancore-var {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* section light */
+
+
+.luces-bloque-texto {
+    text-align: start;
+    padding-right: 5%;
+}
+
+
+.luces-h2 {
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4vmax;
+}
+
+.folo-luz {
+    width: 80%;
+    margin-left: 10%;
+    
+    
+}
+
+.luces-parrafo {
+    font-size: 1.3rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* section card */
+
+
+.bg-card {
+    background-image: url(../img/card-fondo.jpg);
+    background-size: cover;
+    background-position: center 94%;
+
+    
+}
+
+.card {
+    border: none;
+}
+
+.h2-card {
+    
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.812);
+}
+
+
+
+.el-java {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.574);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* sections flotante */
+
+
+.img-fondo {
+
+    background-image: url(../img/cafe-hippie.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 8em;
+
+    
+}
+
+
+
+
+
+
+
+/* galeria */
+
+
+
+
+.galeria-container {
+    margin: 1rem auto 1rem auto;
+    width: 80%;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+
+
+
+/* texto de la galeria */
+
+
+.gal-text-uno {
+    
+    background-color: rgb(94, 58, 90);
+   
+}
+
+.gal-text-dos {
+    background-color: rgb(59, 37, 37);
+    
+}
+
+
+.gal-text-tres {
+  background-color: rgb(20, 19, 19);
+    
+}
+
+.row-gal {
+
+    height: 35vmax;
+    width: 100%;
+    background-color: rgb(237, 104, 175);
+}
+
+.galeria-uno {
+    background-image: url(../img/manoCafe3.jpg);
+    background-size: cover;
+    background-position: center center;  
+    filter: brightness(0.6);  
+}
+
+.galeria-uno:hover {
+      
+    filter: brightness(0.9);  
+}
+
+
+
+.galeria-dos {
+    background-image: url(../img/manoCafe2.jpg);
+    background-size: cover;
+    background-position: center center;   
+    filter: brightness(0.5); 
+}
+
+.galeria-dos:hover {
+      
+    filter: brightness(0.8);  
+}
+
+.galeria-tres {
+    background-image: url(../img/manoCafe1.jpg);
+    background-size: cover;
+    background-position: center center; 
+    filter: brightness(0.5);   
+}
+
+.galeria-tres:hover {
+      
+    filter: brightness(0.7);  
+}
+
+
+
+
+/* bloques internos de galeria */
+
+.titulo-gal {
+    font-family: "Bebas Neue", sans-serif;
+    
+    
+}
+
+.hr-galeria {
+    width: 15rem;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* marketplace */
+
+
+
+
+.fondomarket {
+   /*  background: linear-gradient(to right, rgb(19, 14, 18), rgb(94, 58, 90)); */
+    padding-bottom: 3rem;
+    background-color: #030303;
+}
+
+
+
+.marketh2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+}
+
+
+.rowmarket {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+
+.text-market {
+    color: #9314bd;
+}
+
+.bloqueservicio {
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+
+
+.ayp-servicio {
+
+    margin-left: 1rem;
+}
+
+
+.ayp-servicio a{
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    padding-bottom: 1rem;
+    color: #ffffff;
+
+   
+}
+
+
+.ayp-servicio a:hover {
+    color: #9314bd;
+}
+
+.bloqueservicio i{
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: #5E3A5A;
+    
+}
+
+.parrafoservicio {
+    max-width: 90%;
+    color: white;
+    
+}
+
+
+
+
+/* botones */
+
+.botones-shop {
+
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 60%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    
+
+
+}
+
+
+
+.botones-shop a{
+
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    padding: 0.5rem 2.5rem;
+    outline: solid 1px #9314bd;
+    border-radius: 0.3rem;
+    color: #9314bd;
+    box-sizing: border-box;
+    
+    
+    
+
+}
+
+.botones-shop a:hover {
+
+    outline: none;
+    background-color: #9314bd;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.botonaso {
+    margin-left: 8rem;
+}
+
+
+/* footer */
+
+
+footer {
+    background-color: #1e041c;
+}
+
+.h2-footer {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4em;
+}
+
+.logo-footer {
+    font-size: 2em;
+    
+}
+
+
+.h3-footer {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5em;
+    color: antiquewhite;
+}
+
+.footer-h6 {
+    padding-top: 0.13rem;
+}
+
+
+
+.redes-sociales {
+    padding-top: 0.6em;
+}
+
+.redes-sociales a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding-top: 0.6rem;
+    padding-right: 1.5em;
+
+
+}
+
+.col-info {
+    padding-right: 3.2rem;
+}
+
+.col-redes {
+    padding-left: 3.2rem;
+}
+
+
+
+/* ************************* bloque variedades ***********************+ */
+
+
+/* header var */
+
+
+.header-var {
+    background-image: url(../img/cafe-leo.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* border: solid 2px black; */
+    height: 45vmax;
+    width: auto;
+}
+
+
+.header-h1-var{
+    
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 10vmax;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.967);
+    padding-top: 16vmax;
+    
+
+            
+}
+
+
+
+
+
+/*++++++ |  banner |++++++*/
+
+.banner-section {
+    margin-bottom: 10vmax;
+}
+
+
+
+.banner-h1 {
+    font-size: 8vmax;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+/* <!------- bloque conocenos (about us) -----> */
+
+.about-container {
+    background-image: url(../img/conocenos.jpg);
+    background-position: center 10% center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
+}
+
+.about-col {
+    background-color: #550000e9;
+    border-radius: 5px;
+}
+
+.about-h2 {
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.8em;
+}
+
+.about-parrafo {
+    font-family: monospace;
+    font-size: 1em;
+}
+
+/* botones about */
+
+.botones-about a{
+
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.2rem;
+    padding: 0.4rem 2.2rem;
+    outline: solid 1px rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    color: #ffffff;
+    box-sizing: border-box;
+    
+}
+
+.botones-about a:hover {
+
+    outline: none;
+    background-color: #922380bb;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.botonaso-about {
+    margin-left: 8rem;
+}
+
+
+
+/********************************* bloque tienda *********************************/
+
+
+.tienda-header {
+    background-image: url(../img/fondo-tienda.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 80vh;
+}
+
+.bloque-tienda-h1 {
+    font-size: 9vmax;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 5px 5px 8px black;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+
+
+.bloque-tienda-h2 {
+
+    font-size: 2.5vmax;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+/* tienda cards */
+
+.tienda-border{
+    border: solid 1px rgb(228, 228, 228);
+    background-color: rgb(255, 252, 170);
+}
+
+.tienda-cards-texto {
+    
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5vmax;
+    padding-bottom: 0;
+}
+
+
+.hr-tienda {
+    width: 30rem;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    /* header principal */
+    .header-h1 {
+        font-size: 21vmin;
+        padding-top: 7vmin;
+    }
+
+    /* header variedades */
+    .header-h1-var {
+        font-size: 21vmin;
+        padding-top: 7vmin;
+
+    }
+
+    /* bloque luz */
+
+    .luces-bloque-texto {
+        padding-top: 2rem;
+    }
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+
+
+     /* header principal */
+    .header-h1  {
+        font-size: 25vmin;
+        padding-top: 12vmin;
+    }
+
+    /* header variedades */
+    
+    .header-h1-var  {
+        font-size: 23vmin;
+        padding-top: 12vmin;
+        margin-top: 7%;
+    }
+
+    /* bloque about */
+
+    .about-parrafo {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+    /* header */
+
+    /* header variedades */
+    .header-h1  {
+        font-size: 23vmin;
+        padding-top: 15vmin;
+    }
+
+    .header-h1-var  {
+        font-size: 20vmin;
+        margin-top: 7%;
+    }
+
+    /* bloque luces */
+
+    .luces-parrafo {
+        font-size: 1rem;
+        
+    }
+
+    /* botones about */
+
+    .botones-about a {
+        font-size: 1rem;
+    }
+
+    .about-parrafo {
+        font-size: 0.7rem;
+    }
+    .about-h2 {
+        font-size: 2rem;
+    }
+
+
+
+   
+
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+    /* header principal */
+
+    .header-h1  {
+        font-size: 18vmin;
+        padding-top: 14vmin;
+    }
+
+    /* nav */
+
+    .fontnav {
+       
+        font-size: 1.3rem;
+        
+    }
+
+    /* header */
+
+    .header-h1-var {
+        font-size: 16vmin;
+        margin-top: 7%;
+    }
+
+
+    /* servicios */
+    
+    .botonaso {
+        margin-left: 4rem;
+    }
+  
+    .botones-shop {
+
+      
+        
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    /* botones about */
+
+    .botonaso-about {
+        margin-left: 2rem;
+    }
+  
+    .botones-about {    
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+
+    .about-h2 {
+        font-size: 1.8rem;
+    }
+
+
+    
+    /* bloque luz */
+
+    .luces-bloque-texto {
+        padding-top: 0rem;
+    }
+
+    .luces-parrafo {
+        font-size: 1rem;
+        
+    }
+
+    /* footer */
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+
+   /* bloque variedades */
+
+
+   /* banner */
+
+   .banner-text {
+    padding: 0 !important;
+   }
+
+    /* bloque about */
+
+    .about-parrafo {
+        font-size: 0.6rem;
+    }
+
+    .about-h2 {
+        font-size: 1.8rem;
+    }
+
+    
+
+    .botones-about a {
+        padding: 0.2rem 1.4rem;
+    }
+    
+
+    /****** bloque tienda ****/
+
+    
+    .tienda-header {
+        
+        height: 60vh;
+    }
+}
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+  
+
+
+    /* header variedades */
+
+    .header-h1-var {
+        font-size: 14vmin;
+        margin-top: 4%;
+    }
+
+
+    /* bloque foto luz */
+
+    .folo-luz {
+        width: 60%;
+        margin: auto;
+        
+        
+    }
+
+    .luces-bloque-texto {
+        text-align: center;
+        padding: 0 5% 0 5%;
+    }
+
+
+    /* galeria */
+
+
+    .row-gal {
+
+        height: 60vmax;
+       
+    }
+
+    /* cards */
+
+    .card-body {
+        text-align: center;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    /* footer */
+
+
+    .h2-footer {
+        
+        font-size: 3em;
+    }
+    
+    .logo-footer {
+        font-size: 1.5em;
+        
+    }
+
+    .col-info {
+        padding-right: 1rem;
+        
+    }
+    
+    .col-redes {
+        padding-left: 1rem;
+    }
+
+    .h3-footer {
+        font-size: 1.2rem;
+        text-align: center;
+        
+    }
+
+    .parrafo-footer {
+        font-size: 0.8rem;
+    }
+   
+
+    .col-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        
+    }
+
+    .col-redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* bloque variedades */
+
+    /* banner */
+
+    .banner-text {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+    }
+
+
+
+    /* bloque conocenos */
+
+    .about-container {
+        height: 45vmax;
+        width: 100%;
+    }
+
+    /* botones about */
+
+    .span-about {
+        display: none;
+    }
+
+    .about-h2 {
+        font-size: 1.2rem;
+        padding-top: 0;
+    }
+
+    .about-parrafo {
+        font-size: 0.4;
+    }
+
+    .hr-about {
+        display: none;
+    }
+
+    .botones-about {
+        display: flex;
+        flex-flow:column wrap;
+        font-size: 0.8rem;
+        margin: 0 auto;
+    }
+
+    .botones-about a {
+        padding: 0.1rem 0.4rem;
+       
+
+    }
+
+    .botonaso-about {
+        margin-left: 0;
+        margin-top: 0.8rem;
+        
+    }
+
+
+    /* bloque tienda */
+
+    .tienda-header {
+        
+        height: 50vh;
+    }
+
+
+    /* bloque tienda cards */
+
+    .tienda-cards-texto {
+    
+        
+        font-size: 8vmax;
+        
+    }
+
+}
+
+
+
+
+
+
+
+/* query especial market place */
+
+
+@media screen and (max-width:613px) {
+
+    
+    .botones-shop {
+   
+        flex-flow: column wrap;
+        
+
+    }
+
+    .botonaso {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+
+    /* bloque tienda */
+
+    .tienda-header {
+        
+        height: 40vh;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    /* header principal */
+
+    .header-h1  {
+        font-size: 19vmin;
+        padding-top: 25vmin;
+    }
+
+    /* header variedades */
+
+    .header-h1-var {
+        font-size: 15vmin;
+        margin-top: 10%;
+    }
+
+   
+    /* market place */    
+
+    .bloqueservicio {
+        display: flex;
+        flex-flow: column wrap ;
+        margin-bottom: 2rem;
+        align-items: center;
+    
+    }
+
+    .ayp-servicio {
+        text-align: center;
+
+        
+    }
+
+    .parrafoservicio {
+        max-width: 100%;
+       
+        
+    }
+
+
+    /* galeria */
+
+    .bloque-galeria {
+        min-width: 100%;
+    }
+
+    .parrafo-galeria {
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+
+    
+
+    /* bloque flotante */
+
+    .img-fondo {
+
+        height: 5em;
+    
+        
+    }
+
+
+    /* footer */
+
+    .redes-sociales {
+        font-size: 1rem;
+    }
+
+
+
+
+    /* bloque about */
+
+    .about-container {
+        height: 250px;  
+              
+  
+    }
+
+    
+
+    .about-col {
+       height: 170px;
+       
+    }   
+
+    .about-parrafo {
+        display: none;
+    }
+
+    .about-h2 {
+        font-size: 0.8rem;
+        
+    }
+
+    .botones-about a {
+        padding: 0.1rem 0.2rem;
+       
+
+    }
+
+    .botones-about {
+        padding-bottom: 0;
+        padding-top: 1rem;
+    }
+
+    /* bloque tienda cards */
+
+    .tienda-cards-texto {
+    
+        
+        font-size: 6vmax;
+        
+    }
+   
+
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:320px) {
+
+    /* header principal */
+
+    .header-h1  {
+        font-size: 22vmin;
+        padding-top: 23vmin;
+    }
+
+    /* header variedades */
+
+    .header-h1-var {
+        font-size: 16vmin;
+        margin-top: 20%;
+    }
+
+    /* bloque about */
+
+    .about-container {
+      height: 200px;  
+            
+
+    }
+
+    
+
+
+  
+
+    
+}
