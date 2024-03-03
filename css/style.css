@@ -615,6 +615,55 @@ footer {
 }
 
 
+/* ************ servicios ******************* */
+
+.borde {
+    background: linear-gradient(to right, #190317, #160315  );
+    height: 80px;
+}
+
+/* portada */
+
+.portada i {
+    font-size: 4rem;
+    color: #000000;
+    
+}
+
+.portada h2 {
+    font-size: 1.2rem;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 1.5rem;
+}
+
+
+/* acordeon */
+
+.fondo-acordeon {
+    background: linear-gradient(to right, #190317, #160315  );
+}
+
+.medidas-deon {
+    width: 60rem;
+}
+
+.color-dion {
+    color: #550b4f;
+}
+
+.texto-deon {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.titlulo-deon {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 6vmax;
+    
+}
+
+.color-span-deon {
+    color: #DC3545
+}
 
 
 
