@@ -446,12 +446,46 @@ footer {
 
 }
 
+.mail a {
+    color: #DC3545;
+}
+
+.mail a:hover {
+    color: white;
+}
+
+.redes-sociales a:hover {
+
+    color: #DC3545;
+}
+
 .col-info {
     padding-right: 3.2rem;
 }
 
 .col-redes {
     padding-left: 3.2rem;
+}
+
+/* copyright */
+
+.copyright {
+    font-family: monospace;
+    font-size: 0.7rem;
+}
+
+.copybottom {
+    text-decoration: none;
+    color: #DC3545;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.4rem;
+}
+
+.copybottom:hover {
+    
+    color: #ffffff;
+    
+    font-size: 1.4rem;
 }
 
 
@@ -1288,6 +1322,13 @@ footer {
       height: 200px;  
             
 
+    }
+
+    /* copyright */
+
+    .copyright {
+       
+        font-size: 0.5rem;
     }
 
     
